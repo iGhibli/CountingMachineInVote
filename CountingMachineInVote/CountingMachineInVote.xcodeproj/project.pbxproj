@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F746CB4D1E968A22000D36B3 /* Controllers in Resources */ = {isa = PBXBuildFile; fileRef = F746CB4A1E968A22000D36B3 /* Controllers */; };
+		F746CB4E1E968A22000D36B3 /* Models in Resources */ = {isa = PBXBuildFile; fileRef = F746CB4B1E968A22000D36B3 /* Models */; };
+		F746CB4F1E968A22000D36B3 /* Views in Resources */ = {isa = PBXBuildFile; fileRef = F746CB4C1E968A22000D36B3 /* Views */; };
 		F799C0831E96821C005D2F99 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F799C0821E96821C005D2F99 /* main.m */; };
 		F799C0861E96821C005D2F99 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F799C0851E96821C005D2F99 /* AppDelegate.m */; };
 		F799C0891E96821C005D2F99 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F799C0881E96821C005D2F99 /* ViewController.m */; };
@@ -16,6 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F746CB4A1E968A22000D36B3 /* Controllers */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Controllers; sourceTree = "<group>"; };
+		F746CB4B1E968A22000D36B3 /* Models */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Models; sourceTree = "<group>"; };
+		F746CB4C1E968A22000D36B3 /* Views */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Views; sourceTree = "<group>"; };
 		F799C07E1E96821C005D2F99 /* CountingMachineInVote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CountingMachineInVote.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F799C0821E96821C005D2F99 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F799C0841E96821C005D2F99 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -58,14 +64,14 @@
 		F799C0801E96821C005D2F99 /* CountingMachineInVote */ = {
 			isa = PBXGroup;
 			children = (
+				F746CB4A1E968A22000D36B3 /* Controllers */,
+				F746CB4B1E968A22000D36B3 /* Models */,
+				F746CB4C1E968A22000D36B3 /* Views */,
 				F799C0841E96821C005D2F99 /* AppDelegate.h */,
 				F799C0851E96821C005D2F99 /* AppDelegate.m */,
 				F799C0871E96821C005D2F99 /* ViewController.h */,
 				F799C0881E96821C005D2F99 /* ViewController.m */,
 				F799C08A1E96821C005D2F99 /* Main.storyboard */,
-				F799C08D1E96821C005D2F99 /* Assets.xcassets */,
-				F799C08F1E96821C005D2F99 /* LaunchScreen.storyboard */,
-				F799C0921E96821C005D2F99 /* Info.plist */,
 				F799C0811E96821C005D2F99 /* Supporting Files */,
 			);
 			path = CountingMachineInVote;
@@ -74,6 +80,9 @@
 		F799C0811E96821C005D2F99 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F799C08D1E96821C005D2F99 /* Assets.xcassets */,
+				F799C08F1E96821C005D2F99 /* LaunchScreen.storyboard */,
+				F799C0921E96821C005D2F99 /* Info.plist */,
 				F799C0821E96821C005D2F99 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -137,8 +146,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F746CB4E1E968A22000D36B3 /* Models in Resources */,
 				F799C0911E96821C005D2F99 /* LaunchScreen.storyboard in Resources */,
 				F799C08E1E96821C005D2F99 /* Assets.xcassets in Resources */,
+				F746CB4F1E968A22000D36B3 /* Views in Resources */,
+				F746CB4D1E968A22000D36B3 /* Controllers in Resources */,
 				F799C08C1E96821C005D2F99 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -317,6 +329,7 @@
 				F799C0971E96821C005D2F99 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
