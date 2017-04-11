@@ -7,9 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F746CB4D1E968A22000D36B3 /* Controllers in Resources */ = {isa = PBXBuildFile; fileRef = F746CB4A1E968A22000D36B3 /* Controllers */; };
-		F746CB4E1E968A22000D36B3 /* Models in Resources */ = {isa = PBXBuildFile; fileRef = F746CB4B1E968A22000D36B3 /* Models */; };
-		F746CB4F1E968A22000D36B3 /* Views in Resources */ = {isa = PBXBuildFile; fileRef = F746CB4C1E968A22000D36B3 /* Views */; };
+		539E88991E9CE5A800B88069 /* SoccerLotteryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 539E88971E9CE5A800B88069 /* SoccerLotteryCell.m */; };
+		539E889A1E9CE5A800B88069 /* SoccerLotteryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 539E88981E9CE5A800B88069 /* SoccerLotteryCell.xib */; };
 		F799C0831E96821C005D2F99 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F799C0821E96821C005D2F99 /* main.m */; };
 		F799C0861E96821C005D2F99 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F799C0851E96821C005D2F99 /* AppDelegate.m */; };
 		F799C0891E96821C005D2F99 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F799C0881E96821C005D2F99 /* ViewController.m */; };
@@ -19,9 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F746CB4A1E968A22000D36B3 /* Controllers */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Controllers; sourceTree = "<group>"; };
-		F746CB4B1E968A22000D36B3 /* Models */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Models; sourceTree = "<group>"; };
-		F746CB4C1E968A22000D36B3 /* Views */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Views; sourceTree = "<group>"; };
+		539E88961E9CE5A800B88069 /* SoccerLotteryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoccerLotteryCell.h; sourceTree = "<group>"; };
+		539E88971E9CE5A800B88069 /* SoccerLotteryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoccerLotteryCell.m; sourceTree = "<group>"; };
+		539E88981E9CE5A800B88069 /* SoccerLotteryCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SoccerLotteryCell.xib; sourceTree = "<group>"; };
 		F799C07E1E96821C005D2F99 /* CountingMachineInVote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CountingMachineInVote.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F799C0821E96821C005D2F99 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F799C0841E96821C005D2F99 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -45,6 +44,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		539E888E1E9CE56D00B88069 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				539E88961E9CE5A800B88069 /* SoccerLotteryCell.h */,
+				539E88971E9CE5A800B88069 /* SoccerLotteryCell.m */,
+				539E88981E9CE5A800B88069 /* SoccerLotteryCell.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		539E889B1E9CE74800B88069 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
 		F799C0751E96821C005D2F99 = {
 			isa = PBXGroup;
 			children = (
@@ -64,9 +80,8 @@
 		F799C0801E96821C005D2F99 /* CountingMachineInVote */ = {
 			isa = PBXGroup;
 			children = (
-				F746CB4A1E968A22000D36B3 /* Controllers */,
-				F746CB4B1E968A22000D36B3 /* Models */,
-				F746CB4C1E968A22000D36B3 /* Views */,
+				539E889B1E9CE74800B88069 /* Controllers */,
+				539E888E1E9CE56D00B88069 /* Views */,
 				F799C0841E96821C005D2F99 /* AppDelegate.h */,
 				F799C0851E96821C005D2F99 /* AppDelegate.m */,
 				F799C0871E96821C005D2F99 /* ViewController.h */,
@@ -146,11 +161,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F746CB4E1E968A22000D36B3 /* Models in Resources */,
+				539E889A1E9CE5A800B88069 /* SoccerLotteryCell.xib in Resources */,
 				F799C0911E96821C005D2F99 /* LaunchScreen.storyboard in Resources */,
 				F799C08E1E96821C005D2F99 /* Assets.xcassets in Resources */,
-				F746CB4F1E968A22000D36B3 /* Views in Resources */,
-				F746CB4D1E968A22000D36B3 /* Controllers in Resources */,
 				F799C08C1E96821C005D2F99 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -162,6 +175,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				539E88991E9CE5A800B88069 /* SoccerLotteryCell.m in Sources */,
 				F799C0891E96821C005D2F99 /* ViewController.m in Sources */,
 				F799C0861E96821C005D2F99 /* AppDelegate.m in Sources */,
 				F799C0831E96821C005D2F99 /* main.m in Sources */,
