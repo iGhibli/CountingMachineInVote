@@ -15,4 +15,7 @@
 #define kScreenH    [[UIScreen mainScreen] bounds].size.height
 
 
+#define kWYCPURL    @"http://api.caipiao.163.com/queryJc_matchArrayAssemble.html?gameEn=jczq&product=caipiao_client&mobileType=iphone&ver=4.32&channel=appstore&apiVer=1.1&apiLevel=27&deviceId=3AD965DB-CF58-44A3-852C-26655052E524"
+
+
 #endif /* CMI_pch */
