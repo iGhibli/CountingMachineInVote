@@ -8,16 +8,16 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="178" id="KGk-i7-Jjw" customClass="SoccerLotteryCell">
-            <rect key="frame" x="0.0" y="0.0" width="629" height="178"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="200" id="KGk-i7-Jjw" customClass="SoccerLotteryCell">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="200"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
-                <frame key="frameInset" width="629" height="177"/>
+                <frame key="frameInset" width="600" height="199"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="001" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qan-fE-aOr">
                         <constraints>
-                            <constraint firstAttribute="width" constant="100" id="JxH-Li-2a2"/>
+                            <constraint firstAttribute="width" constant="60" id="JxH-Li-2a2"/>
                         </constraints>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                         <nil key="textColor"/>
@@ -73,10 +73,10 @@
                     <constraint firstItem="dB8-pN-9Q9" firstAttribute="width" secondItem="38n-Lq-GAM" secondAttribute="width" id="835-of-ybT"/>
                     <constraint firstItem="Wpz-CJ-5Tg" firstAttribute="leading" secondItem="Gby-fd-1Nn" secondAttribute="trailing" constant="10" id="AVu-Oy-88o"/>
                     <constraint firstAttribute="bottom" secondItem="IP5-KF-wcZ" secondAttribute="bottom" constant="10" id="DiX-Pf-ScC"/>
-                    <constraint firstItem="PGp-bZ-zW3" firstAttribute="leading" secondItem="Wpz-CJ-5Tg" secondAttribute="trailing" constant="10" id="Icf-sd-raW"/>
-                    <constraint firstItem="dB8-pN-9Q9" firstAttribute="leading" secondItem="38n-Lq-GAM" secondAttribute="trailing" constant="10" id="Jvg-Jd-ScM"/>
+                    <constraint firstItem="PGp-bZ-zW3" firstAttribute="leading" secondItem="Wpz-CJ-5Tg" secondAttribute="trailing" constant="3" id="Icf-sd-raW"/>
+                    <constraint firstItem="dB8-pN-9Q9" firstAttribute="leading" secondItem="38n-Lq-GAM" secondAttribute="trailing" constant="3" id="Jvg-Jd-ScM"/>
                     <constraint firstItem="dB8-pN-9Q9" firstAttribute="height" secondItem="IP5-KF-wcZ" secondAttribute="height" id="LGn-YI-lgf"/>
-                    <constraint firstItem="IP5-KF-wcZ" firstAttribute="top" secondItem="Gby-fd-1Nn" secondAttribute="bottom" constant="10" id="Lbl-gs-IQz"/>
+                    <constraint firstItem="IP5-KF-wcZ" firstAttribute="top" secondItem="Gby-fd-1Nn" secondAttribute="bottom" constant="3" id="Lbl-gs-IQz"/>
                     <constraint firstItem="JUr-vm-0M5" firstAttribute="height" secondItem="IP5-KF-wcZ" secondAttribute="height" id="NOW-oc-w0g"/>
                     <constraint firstItem="Qan-fE-aOr" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="P02-bi-7f2"/>
                     <constraint firstItem="IP5-KF-wcZ" firstAttribute="height" secondItem="Gby-fd-1Nn" secondAttribute="height" id="PhX-SD-RCb"/>
@@ -88,7 +88,7 @@
                     <constraint firstItem="PGp-bZ-zW3" firstAttribute="width" secondItem="Wpz-CJ-5Tg" secondAttribute="width" id="SlN-kz-Yp9"/>
                     <constraint firstItem="Gby-fd-1Nn" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="Trp-iy-Mbk"/>
                     <constraint firstItem="dB8-pN-9Q9" firstAttribute="top" secondItem="IP5-KF-wcZ" secondAttribute="top" id="WvT-By-Iym"/>
-                    <constraint firstItem="g5i-zV-nRL" firstAttribute="leading" secondItem="PGp-bZ-zW3" secondAttribute="trailing" constant="10" id="b4U-xW-Ecp"/>
+                    <constraint firstItem="g5i-zV-nRL" firstAttribute="leading" secondItem="PGp-bZ-zW3" secondAttribute="trailing" constant="3" id="b4U-xW-Ecp"/>
                     <constraint firstItem="PGp-bZ-zW3" firstAttribute="top" secondItem="Gby-fd-1Nn" secondAttribute="top" id="blJ-Pd-Hfh"/>
                     <constraint firstItem="Qan-fE-aOr" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="mbx-GX-iUb"/>
                     <constraint firstItem="g5i-zV-nRL" firstAttribute="width" secondItem="Wpz-CJ-5Tg" secondAttribute="width" id="oeH-mX-ywo"/>
@@ -98,7 +98,7 @@
                     <constraint firstItem="IP5-KF-wcZ" firstAttribute="width" secondItem="Gby-fd-1Nn" secondAttribute="width" id="x2Q-2p-hRA"/>
                     <constraint firstItem="Gby-fd-1Nn" firstAttribute="leading" secondItem="Qan-fE-aOr" secondAttribute="trailing" constant="10" id="xuJ-K1-JP2"/>
                     <constraint firstItem="38n-Lq-GAM" firstAttribute="height" secondItem="IP5-KF-wcZ" secondAttribute="height" id="y1f-z6-5jy"/>
-                    <constraint firstItem="JUr-vm-0M5" firstAttribute="leading" secondItem="dB8-pN-9Q9" secondAttribute="trailing" constant="10" id="y3f-eX-7Ig"/>
+                    <constraint firstItem="JUr-vm-0M5" firstAttribute="leading" secondItem="dB8-pN-9Q9" secondAttribute="trailing" constant="3" id="y3f-eX-7Ig"/>
                 </constraints>
             </tableViewCellContentView>
             <connections>

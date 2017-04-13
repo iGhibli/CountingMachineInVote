@@ -7,12 +7,18 @@
 //
 
 #import "SoccerLotteryCell.h"
+#import "SoccerLotteryModel.h"
 
 @implementation SoccerLotteryCell
 
 - (void)awakeFromNib {
     [super awakeFromNib];
     // Initialization code
+}
+
+- (void)setModel:(SoccerLotteryModel *)model {
+    _model = model;
+    
 }
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {

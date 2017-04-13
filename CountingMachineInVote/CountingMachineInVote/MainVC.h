@@ -1,15 +1,13 @@
 //
-//  ViewController.h
+//  MainVC.h
 //  CountingMachineInVote
 //
-//  Created by matengfei on 2017/4/6.
+//  Created by 赛驰 on 2017/4/13.
 //  Copyright © 2017年 iGhibli. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface MainVC : UIViewController
 
 @end
-

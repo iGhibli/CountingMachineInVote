@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
+@class SoccerLotteryModel;
+
 @interface SoccerLotteryCell : UITableViewCell
 // 场次编号
 @property (weak, nonatomic) IBOutlet UILabel *orderNumber;
@@ -19,5 +21,7 @@
 @property (weak, nonatomic) IBOutlet UIButton *win;
 @property (weak, nonatomic) IBOutlet UIButton *draw;
 @property (weak, nonatomic) IBOutlet UIButton *defeat;
+// 模型
+@property (nonatomic, strong) SoccerLotteryModel *model;
 
 @end

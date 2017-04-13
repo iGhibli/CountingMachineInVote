@@ -7,17 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		532BB82C1E9F2921008C2E7F /* SoccerLotteryVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 532BB82B1E9F2921008C2E7F /* SoccerLotteryVC.m */; };
+		532BB8371E9F5CFA008C2E7F /* UINavigationBar+Awesome.m in Sources */ = {isa = PBXBuildFile; fileRef = 532BB8361E9F5CFA008C2E7F /* UINavigationBar+Awesome.m */; };
+		532BB83A1E9F5F6F008C2E7F /* MainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 532BB8391E9F5F6F008C2E7F /* MainVC.m */; };
+		532BB83F1E9F76C4008C2E7F /* SoccerLotteryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 532BB83E1E9F76C4008C2E7F /* SoccerLotteryModel.m */; };
 		539E88991E9CE5A800B88069 /* SoccerLotteryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 539E88971E9CE5A800B88069 /* SoccerLotteryCell.m */; };
 		539E889A1E9CE5A800B88069 /* SoccerLotteryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 539E88981E9CE5A800B88069 /* SoccerLotteryCell.xib */; };
 		F799C0831E96821C005D2F99 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F799C0821E96821C005D2F99 /* main.m */; };
 		F799C0861E96821C005D2F99 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F799C0851E96821C005D2F99 /* AppDelegate.m */; };
-		F799C0891E96821C005D2F99 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F799C0881E96821C005D2F99 /* ViewController.m */; };
 		F799C08C1E96821C005D2F99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F799C08A1E96821C005D2F99 /* Main.storyboard */; };
 		F799C08E1E96821C005D2F99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F799C08D1E96821C005D2F99 /* Assets.xcassets */; };
 		F799C0911E96821C005D2F99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F799C08F1E96821C005D2F99 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		532BB82A1E9F2921008C2E7F /* SoccerLotteryVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoccerLotteryVC.h; sourceTree = "<group>"; };
+		532BB82B1E9F2921008C2E7F /* SoccerLotteryVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoccerLotteryVC.m; sourceTree = "<group>"; };
+		532BB8351E9F5CFA008C2E7F /* UINavigationBar+Awesome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+Awesome.h"; sourceTree = "<group>"; };
+		532BB8361E9F5CFA008C2E7F /* UINavigationBar+Awesome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+Awesome.m"; sourceTree = "<group>"; };
+		532BB8381E9F5F6F008C2E7F /* MainVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainVC.h; sourceTree = "<group>"; };
+		532BB8391E9F5F6F008C2E7F /* MainVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainVC.m; sourceTree = "<group>"; };
+		532BB83D1E9F76C4008C2E7F /* SoccerLotteryModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoccerLotteryModel.h; sourceTree = "<group>"; };
+		532BB83E1E9F76C4008C2E7F /* SoccerLotteryModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoccerLotteryModel.m; sourceTree = "<group>"; };
+		532BB8401E9F797E008C2E7F /* CMI.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMI.pch; sourceTree = "<group>"; };
 		539E88961E9CE5A800B88069 /* SoccerLotteryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoccerLotteryCell.h; sourceTree = "<group>"; };
 		539E88971E9CE5A800B88069 /* SoccerLotteryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoccerLotteryCell.m; sourceTree = "<group>"; };
 		539E88981E9CE5A800B88069 /* SoccerLotteryCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SoccerLotteryCell.xib; sourceTree = "<group>"; };
@@ -25,8 +37,6 @@
 		F799C0821E96821C005D2F99 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F799C0841E96821C005D2F99 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F799C0851E96821C005D2F99 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F799C0871E96821C005D2F99 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F799C0881E96821C005D2F99 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		F799C08B1E96821C005D2F99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F799C08D1E96821C005D2F99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F799C0901E96821C005D2F99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -44,6 +54,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		532BB82F1E9F4CF7008C2E7F /* Categorys */ = {
+			isa = PBXGroup;
+			children = (
+				532BB8351E9F5CFA008C2E7F /* UINavigationBar+Awesome.h */,
+				532BB8361E9F5CFA008C2E7F /* UINavigationBar+Awesome.m */,
+			);
+			name = Categorys;
+			sourceTree = "<group>";
+		};
+		532BB83B1E9F697E008C2E7F /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				F799C0841E96821C005D2F99 /* AppDelegate.h */,
+				F799C0851E96821C005D2F99 /* AppDelegate.m */,
+				F799C08A1E96821C005D2F99 /* Main.storyboard */,
+			);
+			name = Others;
+			sourceTree = "<group>";
+		};
+		532BB83C1E9F7680008C2E7F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				532BB83D1E9F76C4008C2E7F /* SoccerLotteryModel.h */,
+				532BB83E1E9F76C4008C2E7F /* SoccerLotteryModel.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
 		539E888E1E9CE56D00B88069 /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -57,6 +95,10 @@
 		539E889B1E9CE74800B88069 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				532BB8381E9F5F6F008C2E7F /* MainVC.h */,
+				532BB8391E9F5F6F008C2E7F /* MainVC.m */,
+				532BB82A1E9F2921008C2E7F /* SoccerLotteryVC.h */,
+				532BB82B1E9F2921008C2E7F /* SoccerLotteryVC.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -80,13 +122,11 @@
 		F799C0801E96821C005D2F99 /* CountingMachineInVote */ = {
 			isa = PBXGroup;
 			children = (
+				532BB83B1E9F697E008C2E7F /* Others */,
+				532BB82F1E9F4CF7008C2E7F /* Categorys */,
 				539E889B1E9CE74800B88069 /* Controllers */,
 				539E888E1E9CE56D00B88069 /* Views */,
-				F799C0841E96821C005D2F99 /* AppDelegate.h */,
-				F799C0851E96821C005D2F99 /* AppDelegate.m */,
-				F799C0871E96821C005D2F99 /* ViewController.h */,
-				F799C0881E96821C005D2F99 /* ViewController.m */,
-				F799C08A1E96821C005D2F99 /* Main.storyboard */,
+				532BB83C1E9F7680008C2E7F /* Models */,
 				F799C0811E96821C005D2F99 /* Supporting Files */,
 			);
 			path = CountingMachineInVote;
@@ -99,6 +139,7 @@
 				F799C08F1E96821C005D2F99 /* LaunchScreen.storyboard */,
 				F799C0921E96821C005D2F99 /* Info.plist */,
 				F799C0821E96821C005D2F99 /* main.m */,
+				532BB8401E9F797E008C2E7F /* CMI.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -175,10 +216,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				532BB82C1E9F2921008C2E7F /* SoccerLotteryVC.m in Sources */,
+				532BB83A1E9F5F6F008C2E7F /* MainVC.m in Sources */,
 				539E88991E9CE5A800B88069 /* SoccerLotteryCell.m in Sources */,
-				F799C0891E96821C005D2F99 /* ViewController.m in Sources */,
+				532BB8371E9F5CFA008C2E7F /* UINavigationBar+Awesome.m in Sources */,
 				F799C0861E96821C005D2F99 /* AppDelegate.m in Sources */,
 				F799C0831E96821C005D2F99 /* main.m in Sources */,
+				532BB83F1E9F76C4008C2E7F /* SoccerLotteryModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +345,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/CountingMachineInVote/CMI.pch";
 				INFOPLIST_FILE = CountingMachineInVote/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -315,6 +361,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/CountingMachineInVote/CMI.pch";
 				INFOPLIST_FILE = CountingMachineInVote/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
