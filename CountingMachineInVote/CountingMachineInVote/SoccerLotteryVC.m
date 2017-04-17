@@ -13,6 +13,7 @@
 
 @interface SoccerLotteryVC ()<UITableViewDelegate, UITableViewDataSource>
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
+@property (nonatomic, strong) NSMutableArray *dataSource;
 
 @end
 
@@ -31,6 +32,13 @@ static NSString *slCellID = @"SLCellID";
     [self loadDatas];
 }
 
+- (NSMutableArray *)dataSource {
+    if (_dataSource == nil) {
+        _dataSource = [NSMutableArray array];
+    }
+    return _dataSource;
+}
+
 // 加载数据
 - (void)loadDatas {
     AFHTTPSessionManager *manager = [AFHTTPSessionManager manager];
@@ -39,23 +47,11 @@ static NSString *slCellID = @"SLCellID";
     } success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
         NSLog(@"%@",responseObject);
         NSArray *tempArray = responseObject[@"matchInfo"];
-        
-//        if (tempArray.count < 4) {
-//            [tempArray enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
-//                NSDictionary *dict = obj;
-//                [self.images addObject:dict[@"image"]];
-//                [self.titles addObject:dict[@"title"]];
-//                [self.IDs addObject:dict[@"id"]];
-//            }];
-//        }else {
-//            for (int i=0; i<4; i++) {
-//                NSDictionary *dict = tempArray[i];
-//                [self.images addObject:dict[@"image"]];
-//                [self.titles addObject:dict[@"title"]];
-//                [self.IDs addObject:dict[@"id"]];
-//            }
-//        }
-//        [self.tableView reloadData];
+        for (NSDictionary *dict in tempArray) {
+            SoccerLotteryModel *model = [[SoccerLotteryModel alloc] initSoccerLotteryModelWithDict:dict];
+            [self.dataSource addObject:model];
+        }
+        [self.tableView reloadData];
     } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
         NSLog(@"%@",error);
 //        if (error.code == -1009 || error.code == -1005) {
@@ -74,16 +70,17 @@ static NSString *slCellID = @"SLCellID";
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return 10;
+    return self.dataSource.count;
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
-    return kScreenW/3;
+    return kScreenW/3.33;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     SoccerLotteryCell *cell = [tableView dequeueReusableCellWithIdentifier:slCellID forIndexPath:indexPath];
-    cell.model = nil;
+    SoccerLotteryModel *model = self.dataSource[indexPath.row];
+    cell.model = model;
     return cell;
 }
 
