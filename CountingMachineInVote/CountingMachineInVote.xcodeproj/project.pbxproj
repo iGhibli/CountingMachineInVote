@@ -17,8 +17,11 @@
 		532BB8531E9F8FB6008C2E7F /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 532BB84B1E9F8FB6008C2E7F /* AFURLRequestSerialization.m */; };
 		532BB8541E9F8FB6008C2E7F /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 532BB84D1E9F8FB6008C2E7F /* AFURLResponseSerialization.m */; };
 		532BB8551E9F8FB6008C2E7F /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 532BB84F1E9F8FB6008C2E7F /* AFURLSessionManager.m */; };
+		5370E87C1EBC83D7005AC428 /* SoccerRecommendCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5370E87A1EBC83D7005AC428 /* SoccerRecommendCell.m */; };
+		5370E87D1EBC83D7005AC428 /* SoccerRecommendCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5370E87B1EBC83D7005AC428 /* SoccerRecommendCell.xib */; };
 		539E88991E9CE5A800B88069 /* SoccerLotteryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 539E88971E9CE5A800B88069 /* SoccerLotteryCell.m */; };
 		539E889A1E9CE5A800B88069 /* SoccerLotteryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 539E88981E9CE5A800B88069 /* SoccerLotteryCell.xib */; };
+		53E312631EBD723F00F06FE6 /* SoccerRecommendVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 53E312621EBD723F00F06FE6 /* SoccerRecommendVC.m */; };
 		F799C0831E96821C005D2F99 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F799C0821E96821C005D2F99 /* main.m */; };
 		F799C0861E96821C005D2F99 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F799C0851E96821C005D2F99 /* AppDelegate.m */; };
 		F799C08C1E96821C005D2F99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F799C08A1E96821C005D2F99 /* Main.storyboard */; };
@@ -49,9 +52,14 @@
 		532BB84D1E9F8FB6008C2E7F /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
 		532BB84E1E9F8FB6008C2E7F /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
 		532BB84F1E9F8FB6008C2E7F /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		5370E8791EBC83D7005AC428 /* SoccerRecommendCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoccerRecommendCell.h; sourceTree = "<group>"; };
+		5370E87A1EBC83D7005AC428 /* SoccerRecommendCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoccerRecommendCell.m; sourceTree = "<group>"; };
+		5370E87B1EBC83D7005AC428 /* SoccerRecommendCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SoccerRecommendCell.xib; sourceTree = "<group>"; };
 		539E88961E9CE5A800B88069 /* SoccerLotteryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoccerLotteryCell.h; sourceTree = "<group>"; };
 		539E88971E9CE5A800B88069 /* SoccerLotteryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoccerLotteryCell.m; sourceTree = "<group>"; };
 		539E88981E9CE5A800B88069 /* SoccerLotteryCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SoccerLotteryCell.xib; sourceTree = "<group>"; };
+		53E312611EBD723F00F06FE6 /* SoccerRecommendVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoccerRecommendVC.h; sourceTree = "<group>"; };
+		53E312621EBD723F00F06FE6 /* SoccerRecommendVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoccerRecommendVC.m; sourceTree = "<group>"; };
 		F799C07E1E96821C005D2F99 /* CountingMachineInVote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CountingMachineInVote.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F799C0821E96821C005D2F99 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F799C0841E96821C005D2F99 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -135,6 +143,9 @@
 				539E88961E9CE5A800B88069 /* SoccerLotteryCell.h */,
 				539E88971E9CE5A800B88069 /* SoccerLotteryCell.m */,
 				539E88981E9CE5A800B88069 /* SoccerLotteryCell.xib */,
+				5370E8791EBC83D7005AC428 /* SoccerRecommendCell.h */,
+				5370E87A1EBC83D7005AC428 /* SoccerRecommendCell.m */,
+				5370E87B1EBC83D7005AC428 /* SoccerRecommendCell.xib */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -146,6 +157,8 @@
 				532BB8391E9F5F6F008C2E7F /* MainVC.m */,
 				532BB82A1E9F2921008C2E7F /* SoccerLotteryVC.h */,
 				532BB82B1E9F2921008C2E7F /* SoccerLotteryVC.m */,
+				53E312611EBD723F00F06FE6 /* SoccerRecommendVC.h */,
+				53E312621EBD723F00F06FE6 /* SoccerRecommendVC.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -223,7 +236,8 @@
 				TargetAttributes = {
 					F799C07D1E96821C005D2F99 = {
 						CreatedOnToolsVersion = 8.3;
-						ProvisioningStyle = Manual;
+						DevelopmentTeam = LZ2XY57FMQ;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -250,6 +264,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5370E87D1EBC83D7005AC428 /* SoccerRecommendCell.xib in Resources */,
 				539E889A1E9CE5A800B88069 /* SoccerLotteryCell.xib in Resources */,
 				F799C0911E96821C005D2F99 /* LaunchScreen.storyboard in Resources */,
 				F799C08E1E96821C005D2F99 /* Assets.xcassets in Resources */,
@@ -264,6 +279,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53E312631EBD723F00F06FE6 /* SoccerRecommendVC.m in Sources */,
 				532BB82C1E9F2921008C2E7F /* SoccerLotteryVC.m in Sources */,
 				532BB8511E9F8FB6008C2E7F /* AFNetworkReachabilityManager.m in Sources */,
 				532BB83A1E9F5F6F008C2E7F /* MainVC.m in Sources */,
@@ -273,6 +289,7 @@
 				532BB8521E9F8FB6008C2E7F /* AFSecurityPolicy.m in Sources */,
 				532BB8531E9F8FB6008C2E7F /* AFURLRequestSerialization.m in Sources */,
 				F799C0831E96821C005D2F99 /* main.m in Sources */,
+				5370E87C1EBC83D7005AC428 /* SoccerRecommendCell.m in Sources */,
 				532BB83F1E9F76C4008C2E7F /* SoccerLotteryModel.m in Sources */,
 				532BB8541E9F8FB6008C2E7F /* AFURLResponseSerialization.m in Sources */,
 				532BB8551E9F8FB6008C2E7F /* AFURLSessionManager.m in Sources */,
@@ -398,7 +415,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = LZ2XY57FMQ;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/CountingMachineInVote/CMI.pch";
 				INFOPLIST_FILE = CountingMachineInVote/Info.plist;
@@ -414,7 +432,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = LZ2XY57FMQ;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/CountingMachineInVote/CMI.pch";
 				INFOPLIST_FILE = CountingMachineInVote/Info.plist;

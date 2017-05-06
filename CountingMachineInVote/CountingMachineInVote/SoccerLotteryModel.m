@@ -45,6 +45,9 @@
         self.draw = @"0";
 
         NSString *spSpf = dict[kSpSpf];
+        if ([spSpf isKindOfClass:[NSNull class]]) {
+            spSpf = @"";
+        }
         if (spSpf != nil && ![spSpf isEqualToString:@""]) {
             NSArray *spSpfArray = [spSpf componentsSeparatedByString:@" "];
             if (spSpfArray.count == 3) {
@@ -54,6 +57,9 @@
             }
         }
         NSString *spRqspf = dict[kSpRqspf];
+        if ([spRqspf isKindOfClass:[NSNull class]]) {
+            spRqspf = @"";
+        }
         if (spRqspf != nil && ![spRqspf isEqualToString:@""]) {
             NSArray *spRqspfArray = [spRqspf componentsSeparatedByString:@" "];
             if (spRqspfArray.count == 3) {

@@ -22,8 +22,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.dataSource = @[@"足球", @"篮球", @"选举", @"统计"];
-    self.vcIDs = @[@"SoccerLotteryVCID"];
+    self.dataSource = @[@"足球", @"足球投票", @"篮球", @"选举", @"统计"];
+    self.vcIDs = @[@"SoccerLotteryVCID", @"SoccerRecommendVCID"];
     
     self.tableView.dataSource = self;
     [self.navigationController.navigationBar lt_setBackgroundColor:[UIColor clearColor]];
@@ -76,7 +76,7 @@
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    if (indexPath.row > 0) {
+    if (indexPath.row > self.vcIDs.count - 1) {
         return;
     }
     UIStoryboard *mainSB = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
